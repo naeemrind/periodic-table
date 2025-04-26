@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: sans-serif;
+    overflow: hidden;
+}
+h1 {
+    text-align: center;
+    margin-top: 10px;
+}
+.table-container {
+    width: 95vw;
+    height: 94vh;
+    margin: 0 auto;
+    user-select: none;
+}
+table {
+    width: 100%;
+}
+table, td {
+    border-collapse: collapse;
+    text-align: center;
+}
+table td {
+    border: 1px solid #1f1f1f;
+    width: 60px;
+    height: 60px;
+    position: relative;
+}
+table td:hover {
+    background-color: #fff;
+}
+.gap {
+    border: none;
+}
+.gap:hover {
+    background-color: transparent;
+}
+.vertical-gap {
+    height: 12px;
+}
+.vertical-gap td {
+    height: 12px;
+}
+table p:first-child {
+    color: #333;
+    font-size: 12px;
+    position: absolute;
+    top: 2px;
+    left: 2px;
+}
+table p:last-child {
+    color: #1f1f1f;
+    font-size: 20px;
+    font-weight: 500;
+}
+/* ------------------ COLOR GROUPS ---------------------------- */
+.noble-gas {
+    background-color: #f0f0f0;
+}
+.non-metal {
+    background-color: #92c1f8;
+}
+.halogen {
+    background-color: #a5ffe1;
+}
+.lanthanide {
+    background-color: pink;
+}
+.actinide {
+    background-color: #d797f5;
+}
+.alkaline-earth {
+    background-color: #eec641;
+}
+.alkali {
+    background-color: #fa7590;
+}
+.transition-metal {
+    background-color: #fcfc47;
+}
+.metalloid {
+    background-color: #9090fa;
+}
+.other-metal {
+    background-color: #75e08c;
+}
